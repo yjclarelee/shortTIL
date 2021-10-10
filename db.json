@@ -326,6 +326,23 @@
         "df"
       ],
       "uploaded_images": []
+    },
+    {
+      "id": 1633842406449,
+      "title": "Today I Learned: JavaScript",
+      "author": "anonymous",
+      "published_at": "2021-10-10",
+      "body": "JavaScript Scope, Closure and etc.",
+      "tags": [
+        "JS",
+        "Closure"
+      ],
+      "uploaded_images": [
+        {
+          "uid": "rc-upload-1633842328391-2",
+          "url": "http://res.cloudinary.com/dhobcqe7o/image/upload/v1633842400/p9td1sgczps6i1je6qva.png"
+        }
+      ]
     }
   ]
 }
