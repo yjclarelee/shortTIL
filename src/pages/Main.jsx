@@ -24,20 +24,20 @@ function Main({ imageUploader }) {
 
   async function getData() {
     const res = await axios.get(
-      "http://localhost:4000/posts?_sort=id&_order=desc&${}"
+      " https://short-til.herokuapp.com/posts?_sort=id&_order=desc&${}"
     );
     setPostData(res.data);
   }
 
   async function getFilterData() {
     const res = await axios.get(
-      `http://localhost:4000/posts?_sort=id&_order=desc&${searchType}_like=${searchTerm}`
+      ` https://short-til.herokuapp.com/posts?_sort=id&_order=desc&${searchType}_like=${searchTerm}`
     );
     setPostData(res.data);
   }
 
   const onAdd = async (newPost) => {
-    await axios.post("http://localhost:4000/posts", {
+    await axios.post("https://short-til.herokuapp.com/posts", {
       ...newPost,
     });
     setPostNum(postNum + 1);
@@ -64,7 +64,7 @@ function Main({ imageUploader }) {
 
   
   const onDel = async (newPost) => {
-    await axios.delete(`http://localhost:4000/posts/${newPost.id}`, {
+    await axios.delete(` https://short-til.herokuapp.com/posts/${newPost.id}`, {
       ...newPost,
     });
     setPostNum(postNum - 1);
