@@ -24,3 +24,11 @@ Tags
 Images  
 
 - Contribution visualization    
+
+## Tech Stack
+React, Antd, Axios, json-server
+
+## Contribution
+Main page layout, Card layout(Responsive), Carousel Images
+
+
