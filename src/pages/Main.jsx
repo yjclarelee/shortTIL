@@ -24,20 +24,20 @@ function Main({ imageUploader }) {
 
   async function getData() {
     const res = await axios.get(
-      "http://localhost:4000/posts?_sort=id&_order=desc&${}"
+      "https://my-json-server.typicode.com/yjclarelee/shortTIL-DB/posts?_sort=id&_order=desc&${}"
     );
     setPostData(res.data);
   }
 
   async function getFilterData() {
     const res = await axios.get(
-      `http://localhost:4000/posts?_sort=id&_order=desc&${searchType}_like=${searchTerm}`
+      `https://my-json-server.typicode.com/yjclarelee/shortTIL-DB/posts?_sort=id&_order=desc&${searchType}_like=${searchTerm}`
     );
     setPostData(res.data);
   }
 
   const onAdd = async (newPost) => {
-    await axios.post("http://localhost:4000/posts", {
+    await axios.post("https://my-json-server.typicode.com/yjclarelee/shortTIL-DB/posts", {
       ...newPost,
     });
     setPostNum(postNum + 1);
