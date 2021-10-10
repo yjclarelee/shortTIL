@@ -345,21 +345,6 @@
       ]
     },
     {
-      "id": 1633845880913,
-      "title": "사진이 될까?",
-      "author": "anonymous",
-      "published_at": "2021-10-10",
-      "body": "도전",
-      "tags": [
-        "태그"
-      ],
-      "uploaded_images": [
-        {
-          "uid": "rc-upload-1633845863347-2"
-        }
-      ]
-    },
-    {
       "id": 1633845911400,
       "title": "제목",
       "author": "anonymous",
@@ -368,6 +353,15 @@
       "tags": [
         "태그"
       ],
+      "uploaded_images": []
+    },
+    {
+      "id": 1633846558219,
+      "title": "ㅁㄴㅇㄹ",
+      "author": "anonymous",
+      "published_at": "2021-10-10",
+      "body": "ㅁㄴㅇㄹ",
+      "tags": [],
       "uploaded_images": []
     }
   ]

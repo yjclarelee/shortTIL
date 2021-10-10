@@ -148,14 +148,14 @@ const CreateForm = ({ visible, onCreate, onCancel, imageUploader }) => {
           banner={true}
           className={alertVisible ? "showAlert" : "hideAlert"}
         />
-        <Upload
+        {/* <Upload
           listType="picture-card"
           fileList={fileList}
           onPreview={handlePreview}
           onChange={handleChange}
         >
           {fileList.length >= 4 ? null : uploadButton}
-        </Upload>
+        </Upload> */}
         <Modal
           visible={previewVisible}
           title={previewTitle}
