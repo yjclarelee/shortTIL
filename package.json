@@ -1,5 +1,6 @@
 {
   "name": "tech-blog",
+  "homepage": "https://yjclarelee.github.io/shortTIL",
   "version": "0.1.0",
   "private": true,
   "main": "server.js",
@@ -19,6 +20,8 @@
     "sass": "^1.42.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

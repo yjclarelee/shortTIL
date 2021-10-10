@@ -343,6 +343,19 @@
           "url": "http://res.cloudinary.com/dhobcqe7o/image/upload/v1633842400/p9td1sgczps6i1je6qva.png"
         }
       ]
+    },
+    {
+      "id": 1633845705844,
+      "title": "글 작성은 안 되지 싶은데",
+      "author": "anonymous",
+      "published_at": "2021-10-10",
+      "body": "될까?",
+      "tags": [],
+      "uploaded_images": [
+        {
+          "uid": "rc-upload-1633845675607-2"
+        }
+      ]
     }
   ]
 }
