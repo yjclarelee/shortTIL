@@ -345,17 +345,30 @@
       ]
     },
     {
-      "id": 1633845705844,
-      "title": "글 작성은 안 되지 싶은데",
+      "id": 1633845880913,
+      "title": "사진이 될까?",
       "author": "anonymous",
       "published_at": "2021-10-10",
-      "body": "될까?",
-      "tags": [],
+      "body": "도전",
+      "tags": [
+        "태그"
+      ],
       "uploaded_images": [
         {
-          "uid": "rc-upload-1633845675607-2"
+          "uid": "rc-upload-1633845863347-2"
         }
       ]
+    },
+    {
+      "id": 1633845911400,
+      "title": "제목",
+      "author": "anonymous",
+      "published_at": "2021-10-10",
+      "body": "내용",
+      "tags": [
+        "태그"
+      ],
+      "uploaded_images": []
     }
   ]
 }
