@@ -64,7 +64,7 @@ function Main({ imageUploader }) {
 
   
   const onDel = async (newPost) => {
-    await axios.delete(`http://localhost:4000/posts/${newPost.id}`, {
+    await axios.delete(`https://my-json-server.typicode.com/yjclarelee/shortTIL-DB/posts/${newPost.id}`, {
       ...newPost,
     });
     setPostNum(postNum - 1);
