@@ -55,7 +55,7 @@ function CardComponent(props) {
   };
 
   const onUpdate = async () => {
-    const res = await axios.patch(` https://short-til.herokuapp.com/posts/${props.id}`, {
+    const res = await axios.patch(` http://localhost:4000/posts/${props.id}`, {
       title: newTitle,
       body: newBody,
     });
